@@ -1,0 +1,18 @@
+{
+    "niche": "SaaS Boilerplate Bundles",
+    "bundle_id": "saas_boilerplate_bundles",
+    "logos": {
+        "primary": "merritt_digital_white.png",
+        "icon": "m_icon_cyan.png"
+    },
+    "style_guide": {
+        "color": "#5D5FEF",
+        "vibe": "Deep Cobalt Stealth"
+    },
+    "stack": [
+        "Python 3.11",
+        "Flask",
+        "Termux",
+        "OpenAI API"
+    ]
+}
