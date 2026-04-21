@@ -6,13 +6,15 @@ class LeadGen:
             manifest = json.load(f)
         
         niche = manifest['niche']
-        stack = manifest['stack']
+        # KEY FIX: Updated to 'stack_recommendations' to match the Architect's output
+        stack = manifest.get('stack_recommendations', ["General Automation Stack"])
         
         content = f"# {niche.upper()} ALPHA DIAGNOSTIC\n\n## Technical Audit\n"
         for tech in stack:
             content += f"- [ ] Is your {tech} environment optimized?\n"
             
-        filename = f"{manifest['bundle_id']}_diagnostic.md"
+        bundle_id = manifest.get('bundle_id', 'niche_bundle')
+        filename = f"{bundle_id}_diagnostic.md"
         with open(filename, 'w') as f:
             f.write(content)
         print(f"📡 [LEAD GEN] Dynamic Diagnostic locked: {filename}")
