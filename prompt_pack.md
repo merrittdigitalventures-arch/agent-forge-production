@@ -1,4 +1,4 @@
-# SaaS Boilerplates: AI Prompt Pack
+# High-Ticket AI Automation: AI Prompt Pack
 
 ## System Prompts
-Advanced LLM instructions for SaaS Boilerplates...
+Advanced LLM instructions for High-Ticket AI Automation...

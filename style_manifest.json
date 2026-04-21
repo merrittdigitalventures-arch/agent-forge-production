@@ -6,13 +6,13 @@
         "icon": "m_icon_cyan.png"
     },
     "style_guide": {
-        "color": "#00FFFF",
-        "vibe": "Neon-Noir"
+        "color": "#00FF41",
+        "vibe": "Matrix Green Cyber"
     },
-    "stack": [
+    "stack_recommendations": [
         "Python 3.11",
-        "Flask",
         "Termux",
+        "GitHub CLI",
         "OpenAI API"
     ]
 }
